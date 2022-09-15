@@ -1,0 +1,80 @@
+
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local PhantomForcesWindow = Library:NewWindow("NTM | TVO NOTIFY")
+
+
+local KillingCheats = PhantomForcesWindow:NewSection("Menu")
+
+KillingCheats:CreateButton("Join & Leave MOD Notify", function()
+pcall(function()
+game.Players.PlayerAdded:Connect(function(plr)
+if   plr.Name == "moonvxpour " or  plr.Name == "Kailxniz " or  plr.Name == "Fayeriex " or  plr.Name == "Itsdollex " or  plr.Name == "Tetphriye " or  plr.Name == "puhlastic " or  plr.Name == "ZaneTheNinjaDragon10 " or  plr.Name == "kur4et0 " or  plr.Name == "stonemslvr " or  plr.Name == "NiIucs " or  plr.Name == "uluvth1swap " or  plr.Name == "oezcan04 " or  plr.Name == "EiIucs"  or  plr.Name == "Delaphris" or  plr.Name == "mybestafriend" or  plr.Name == "naimcain20" then
+
+game.StarterGui:SetCore("SendNotification", { 
+            Title = "NTM MOD NOTIFIER";
+            Text = plr.Name.. "| JOINED !";
+            Icon = "rbxthumb://type=Asset&id=7770638479&w=150&h=150";
+            Duration = "30";
+            Button1 = "Enjoy :)";
+        })
+
+
+    
+    
+end   
+end)
+
+game.Players.PlayerRemoving:Connect(function(plr)
+if   plr.Name == "moonvxpour " or  plr.Name == "Kailxniz " or  plr.Name == "Fayeriex " or  plr.Name == "Itsdollex " or  plr.Name == "Tetphriye " or  plr.Name == "puhlastic " or  plr.Name == "ZaneTheNinjaDragon10 " or  plr.Name == "kur4et0 " or  plr.Name == "stonemslvr " or  plr.Name == "NiIucs " or  plr.Name == "uluvth1swap " or  plr.Name == "oezcan04 " or  plr.Name == "EiIucs"  or  plr.Name == "Delaphris" or  plr.Name == "mybestafriend" or  plr.Name == "naimcain20" then
+
+
+game.StarterGui:SetCore("SendNotification", { 
+            Title = "NTM MOD NOTIFIER";
+            Text = plr.Name..  "| LEFT !";
+            Icon = "rbxthumb://type=Asset&id=7770638479&w=150&h=150";
+            Duration = "30";
+            Button1 = "Enjoy :)";
+        })
+
+
+    
+    
+end    
+    
+    
+end)
+    
+    
+    
+    
+    
+    end)
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "MOD JOIN/LEAVE NOTIFY ON ";Text = " by NTM"})
+end)
+
+
+
+
+
+
+KillingCheats:CreateButton("MOD CHecker | Click to use", function()
+
+pcall(function()
+ for i,plr in pairs(game.Players:GetPlayers()) do
+    if plr.Name == "moonvxpour " or  plr.Name == "Kailxniz " or  plr.Name == "Fayeriex " or  plr.Name == "Itsdollex " or  plr.Name == "Tetphriye " or  plr.Name == "puhlastic " or  plr.Name == "ZaneTheNinjaDragon10 " or  plr.Name == "kur4et0 " or  plr.Name == "stonemslvr " or  plr.Name == "NiIucs " or  plr.Name == "uluvth1swap " or  plr.Name == "oezcan04 " or  plr.Name == "EiIucs"  or  plr.Name == "Delaphris" or  plr.Name == "mybestafriend" or  plr.Name == "naimcain20" then
+
+game.StarterGui:SetCore("SendNotification", { 
+            Title = "NTM MOD NOTIFY";
+            Text = plr.Name.. "| HERE!";
+            Icon = "rbxthumb://type=Asset&id=7770638479&w=150&h=150";
+            Duration = "30";
+            Button1 = "Enjoy :)";
+        })
+
+
+    end
+ end
+end)
+end)
+
+
